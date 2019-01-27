@@ -48,7 +48,7 @@ def renamedf(df, normalized=True):
 
 
 def validate_inputs(inputs):
-    # date parameters alredy evaluated by webapp.
+    # date parameters already evaluated by webapp.
     inputs = inputs["matchup"]
     ew = {"matchup": {'errors': {}, 'warnings': {}}}
     for pos in ["pitcher", "batter"]:
